@@ -37,7 +37,7 @@ section{
 }
 footer{padding: 20px;
     text-align: center;
-    background-color: blue;
+    background-color: rgb(130, 186, 231);
 }
 @media screen and (max-width: 700px) { 
     nav, .row{flex-direction: column;
