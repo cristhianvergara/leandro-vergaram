@@ -1,23 +1,29 @@
 *{
 box-sizing: border-box;
 }
+
 body {
     font-family: arial, helvetica, sans-serif;
-    margin: 0;
+    margin: 100px;
     padding: 0;
 }
-header{padding: 50px;
+header{padding: 35px;
     background-color: deepskyblue;
 text-align: center;
 }
+img{ width: 50%;
+
+}
+
 nav{
     display: flex;
     flex: direction: row;
-    background-color: #333;
-
+    background-color: #777;
+    border: 2px solid 
+   
 }
 nav a{
-    color: white;
+    color: rgb(1, 12, 5);
     padding: 14px 20px;
     text-decoration: none;
 }
@@ -27,12 +33,12 @@ nav a{
 }
 aside{
     flex: 30px;
-    background-color: crimson;
+    background-color: rgb(214, 212, 108);
     padding: 20px;
 }
 section{
-    flex: 70px;
-    background-color: rgb(20, 220, 37);
+    flex: 25px;
+    background-color: rgb(88, 190, 97);
     padding: 20px;
 }
 footer{padding: 20px;
@@ -40,7 +46,52 @@ footer{padding: 20px;
     background-color: rgb(130, 186, 231);
 }
 @media screen and (max-width: 700px) { 
-    nav, .row{flex-direction: column;
-    }
+    nav, .row{flex-direction: column;}  
+}
+.column{
+    flex: 50%;
+    padding: 20px 20px;}
+
+
+.column img{
+    margin-top:auto;
+justify-content: center;
+width: 50%;
+
+
+}
+.column1{
+    width: auto;
+    height: auto;
+    background: chartreuse;
+   image-orientation: from-image; 
+   text-align: center;
     
+image-rendering: auto;
+}
+.column2{
+    background:coral;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+.column3{
+    background: rgb(235, 111, 218);
+    width: 50%;
+    height: 50%;
+    text-align:center;
+}
+.column4{
+    background:rgb(127, 60, 158);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.images{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    background-color: rgb(108, 140, 245);
 }
